@@ -1,4 +1,4 @@
-bucket = "daws76s-state-dev"
+bucket = "robodhop-state-dev"
 key    = "catalogue"
 region = "us-east-1"
-dynamodb_table = "daws76s-locking-dev"
+dynamodb_table = "roboshop-locking-dev"
