@@ -56,7 +56,7 @@ pipeline {
         stage('Apply') {
             when{
                 expression{
-                    params.Create
+                    params.Create == true
                 }
             }
             steps {
