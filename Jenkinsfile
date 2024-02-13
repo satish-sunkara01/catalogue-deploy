@@ -42,7 +42,7 @@ pipeline {
         stage('Plan') {
             when{
                 expression{
-                    params.Create = 'true'
+                    params.Create
                 }
             }
             steps {
