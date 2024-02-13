@@ -44,6 +44,7 @@ pipeline {
                 expression{
                     params.Create 
                 }
+            }
             steps {
                 sh """
                     cd terraform
